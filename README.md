@@ -26,13 +26,13 @@ El pipeline se estructura en las siguientes etapas:
 
 ## Instrucciones de Uso
 
-1. Modificar archivo .env con el respectivo mail del usuario, mail del destinatario y la app passwords que se utilizaran como variables de ambiente al levantar el contenedor
-2. Levantar contenedor Docker mediante el archivo **docker-compose**
-  - Abrir consola y dentro de la carpeta con los archivos utilizar comando:
+1. Modificar archivo .env con el respectivo mail del usuario, mail del destinatario y la app password que se utilizaran como variables de ambiente al levantar el contenedor.
+2. Levantar contenedor Docker mediante el archivo **docker-compose**.
+  - Por unica vez --> Abrir consola y dentro de la carpeta con los archivos utilizar comando:
 ```
 docker-compose up airflow-init
 ```
-   - Una vez finalizado, levandar el docker-compose:
+   - Una vez finalizado, levantar el docker-compose: --> Se realiza cada vez que se quiera levantar el docker-compose.
 ```
 docker compose up
 ```
