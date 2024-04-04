@@ -28,6 +28,6 @@ with open(output_path, "w", encoding="utf-8") as file:
         permalink = getItemClean(item, "permalink")
         seller = getItemClean(item.get('seller', {}), "nickname").replace("'", "''")  # Escapamos las comillas simples
 
-        file.write(f"{_id}\t'{title}'\t{price}\t{thumbnail}\t{permalink}\t'{seller}'\n{DATE}\n") 
+        file.write(f"{_id}\t'{title}'\t{price}\t{thumbnail}\t{permalink}\t'{seller}'\t{DATE}\n") 
 
     

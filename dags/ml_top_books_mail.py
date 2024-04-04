@@ -32,7 +32,7 @@ with DAG (
             thumbnail VARCHAR(500),
             permalink VARCHAR(500),
             seller VARCHAR(200),
-            created_date VARCHAR(8)
+            created_date VARCHAR(15)
             
         )
         """
