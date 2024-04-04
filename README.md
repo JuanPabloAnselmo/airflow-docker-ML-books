@@ -42,6 +42,7 @@ Para mas información dejo estos links:
    -  [Running Airflow 2.0 with Docker in 5 mins](https://www.youtube.com/watch?v=aTaytcxy2Ck&t=526s&ab_channel=DatawithMarc)
 
 3. Con el contenedor levantado, ingresar al webserver: [localhost](http://localhost:8080/)
+   - Usuario: airflow | Contraseña: airflow
 4. Conectarse a PostgreSQL. Seguir este video: [Airflow Connection connect to Postgres](https://www.youtube.com/watch?v=S1eapG6gjLU&t=249s&ab_channel=coder2j)
 5. Correr el DAG "dag_ml_top_books_mail"
 
